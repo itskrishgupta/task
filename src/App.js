@@ -13,10 +13,10 @@ function App() {
     <>
       <Router>
         <Header title="Task" searchBar={false} />
-          <Route exact path="/">
+          <Route exact path="/#/">
             <Home />
           </Route>
-          <Route exact path="/setting">
+          <Route exact path="/#/setting">
             <Setting />
           </Route>
 
